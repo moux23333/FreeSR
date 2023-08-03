@@ -17,8 +17,8 @@
         {
             string baseString = HttpAdminService.ConsoleHTML;
 
-            return baseString.Replace("%SERVER_VERSION%", "v0.1.0 dev")
-                      .Replace("%GAME_VERSION%", "0.56");
+            return baseString.Replace("%SERVER_VERSION%", "v0.1.0 dev - experimental open source")
+                      .Replace("%GAME_VERSION%", "1.2.0");
 
         }
     }
