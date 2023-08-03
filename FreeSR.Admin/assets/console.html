@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FreeSR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #status {
+            font-weight: bold;
+        }
+
+        #console {
+            width: 100%;
+            height: 300px;
+            font-family: monospace;
+            background-color: #f0f0f0;
+            overflow-y: scroll;
+        }
+
+        #commandInput {
+            width: 100%;
+            padding: 5px;
+        }
+
+        #submitBtn {
+            padding: 5px 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>FreeSR Control Panel</h1>
+    <div>
+        <h2>Status:</h2>
+        <p id="status">Loading...</p>
+    </div>
+    <div>
+        <h2>Server Statistics:</h2>
+
+        <p>Server build: %SERVER_VERSION%</p>
+        <p>Supported game version: %GAME_VERSION%</p>
+    </div>
+    <div>
+        <h2>Admin Console:</h2>
+        <textarea id="console" readonly></textarea>
+        <input type="text" id="commandInput" placeholder="Enter admin command...">
+        <button id="submitBtn">Execute</button>
+    </div>
+
+    <script>
+        const consoleOutput = document.getElementById('console');
+        const commandInput = document.getElementById('commandInput');
+        const submitBtn = document.getElementById('submitBtn');
+
+        // Function to update the status section (replace with actual server status)
+        function updateStatus(statusText) {
+            const statusElement = document.getElementById('status');
+            statusElement.innerText = statusText;
+        }
+
+        // Function to add a new line to the console
+        function addToConsole(text) {
+            consoleOutput.value += text + '\n';
+            consoleOutput.scrollTop = consoleOutput.scrollHeight;
+        }
+
+        function sendCommand() {
+            const command = commandInput.value;
+            if (command.length == 0)
+                return;
+
+            addToConsole(`> ${command}`);
+
+            fetch(`/console/exec?command=${encodeURIComponent(command)}`)
+                .then(response => response.text())
+                .then(data => {
+                    if (data.startsWith("dohttpreq")) {
+                        fetch(data.replace("dohttpreq=", ""))
+                            .then(response => response.text())
+                            .then(data => {
+                                addToConsole(data);
+                            });
+                    }
+                    else {
+                        addToConsole(data);
+                    }
+                })
+                .catch(error => {
+                    addToConsole(`Error: ${error.message}`);
+                });
+
+            commandInput.value = '';
+        }
+
+        submitBtn.addEventListener('click', sendCommand);
+    </script>
+</body>
+</html>

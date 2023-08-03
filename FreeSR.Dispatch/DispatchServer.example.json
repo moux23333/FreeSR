@@ -1,0 +1,21 @@
+{
+  "Network": {
+    "Host": "0.0.0.0",
+    "Port": 8888
+  },
+  "Database": {
+    "ConnectionString": "mongodb://127.0.0.1:27017/",
+    "Name": "FreeSR",
+    "Entries": [
+      {
+        "CollectionName": "accounts",
+        "Type": "Account"
+      }
+    ]
+  },
+  "Region": {
+    "Name": "FreeSR",
+    "EnvType": "2",
+    "DispatchUrl": "http://dispatch.starrails.com/query_gateway"
+  }
+}

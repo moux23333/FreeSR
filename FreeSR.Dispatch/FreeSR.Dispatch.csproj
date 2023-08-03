@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ceen.Httpd" Version="0.9.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FreeSR.Database.Account\FreeSR.Database.Account.csproj" />
+    <ProjectReference Include="..\FreeSR.Proto\FreeSR.Proto.csproj" />
+    <ProjectReference Include="..\FreeSR.Shared\FreeSR.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DispatchServer.example.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,7 @@
+{
+  "Network": {
+    "Host": "0.0.0.0",
+    "Port": 1337
+  },
+  "DispatchUrl": "http://localhost:8888"
+}
