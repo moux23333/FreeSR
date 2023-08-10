@@ -98,6 +98,16 @@
                 Msg = null,
                 SecretKeySeed = 0
             });
+
+            session.Send(CmdType.BattlePassInfoNotify, new BattlePassInfoNotify
+            {
+                APAKIFHJGIM = FJOOCNKDGEG.BP_TIER_TYPE_PREMIUM_2,
+                HMFDMCECAHO = 4294967294,
+                LLMDFFBAPKC = 2440,
+                OGKOMHAPOGL = 3,
+                Exp = 1000,
+                Level = 50
+            });
         }
     }
 }
