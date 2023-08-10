@@ -31,6 +31,8 @@
                 NotifyManager.AddReqGroupHandler(typeof(QuestReqGroup));
                 NotifyManager.AddReqGroupHandler(typeof(ChallengeReqGroup));
                 NotifyManager.AddReqGroupHandler(typeof(SceneReqGroup));
+                NotifyManager.AddReqGroupHandler(typeof(GachaReqGroup));
+                NotifyManager.AddReqGroupHandler(typeof(NPCReqGroup));
 
                 NotifyManager.Init();
             }

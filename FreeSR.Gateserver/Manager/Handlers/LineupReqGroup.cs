@@ -18,7 +18,9 @@
             {
                 ExtraLineupType = ExtraLineupType.LINEUP_NONE,
                 Name = "Squad 1",
-                AvatarList = new List<LineupAvatar>()
+                AvatarList = new List<LineupAvatar>(),
+                LeaderSlot = 5,
+                AMBCECDBHFC = 5
             };
 
             var characters = new int[] { 8001, 1005, 1003 };
@@ -53,7 +55,9 @@
             {
                 ExtraLineupType = ExtraLineupType.LINEUP_NONE,
                 Name = "Squad 1",
-                AvatarList = new List<LineupAvatar>()
+                AvatarList = new List<LineupAvatar>(),
+                AMBCECDBHFC = 5,
+                LeaderSlot = 3
             });
 
             var characters = new int[] { 8001, 1005, 1003 };

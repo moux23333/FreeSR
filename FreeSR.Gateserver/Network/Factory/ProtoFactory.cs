@@ -28,7 +28,15 @@
 
                 {CmdType.GetBasicInfoCsReq, typeof(GetBasicInfoCsReq)},
                 {CmdType.GetHeroBasicTypeInfoCsReq, typeof(GetHeroBasicTypeInfoCsReq)},
-                {CmdType.PlayerHeartBeatCsReq, typeof(PlayerHeartBeatCsReq)}
+                {CmdType.PlayerHeartBeatCsReq, typeof(PlayerHeartBeatCsReq)},
+
+                {CmdType.GetGachaInfoCsReq, typeof(GetGachaInfoCsReq)},
+                {CmdType.DoGachaCsReq, typeof(DoGachaCsReq)},
+
+                {CmdType.GetNpcTakenRewardCsReq, typeof(GetNpcTakenRewardCsReq)},
+                {CmdType.GetFirstTalkByPerformanceNpcCsReq, typeof(GetFirstTalkByPerformanceNpcCsReq)},
+                
+                {CmdType.GetBagCsReq, typeof(GetBagCsReq)}
             });
 
             s_types = builder.ToImmutable();
