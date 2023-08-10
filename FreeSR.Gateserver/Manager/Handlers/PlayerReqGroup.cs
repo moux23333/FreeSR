@@ -74,7 +74,7 @@
                 BasicInfo = new PlayerBasicInfo
                 {
                     Nickname = "xeondev",
-                    Level = 1,
+                    Level = 30,
                     Exp = 0,
                     Stamina = 100,
                     MCoin = 0,
