@@ -1,14 +1,14 @@
 # FreeSR - Server Software Reimplementation for a Certain Turn-Based Anime Game
 
-**FreeSR** is an open-source server software reimplementation for a certain turn-based anime game, specifically version 1.2.0 developed by xeondev. This project aims to provide a platform for running private servers, enabling players to enjoy the game in a controlled environment with modified or additional features. The open-source version of FreeSR missing some and has empty classes, inviting contributors to actively participate by raising issues or submitting pull requests.
+**FreeSR** is an open-source server software reimplementation for a certain turn-based anime game, specifically version 1.3.0 developed by xeondev. This project aims to provide a platform for running private servers, enabling players to enjoy the game in a controlled environment with modified or additional features. The open-source version of FreeSR missing some and has empty classes, inviting contributors to actively participate by raising issues or submitting pull requests.
 
 ## Introduction
 
-The "FreeSR" project is an initiative to recreate the server-side functionality of a certain turn-based anime game, version 1.2.0, which was originally developed by xeondev.
+The "FreeSR" project is an initiative to recreate the server-side functionality of a certain turn-based anime game, version 1.3.0, which was originally developed by xeondev.
 
 ## Features
 
-- Server software reimplementation for a certain turn-based anime game (version 1.2.0)
+- Server software reimplementation for a certain turn-based anime game (version 1.3.0)
 - Open-source with permissive licensing
 - Extensible architecture allowing for custom modifications and additional features
 - Regular updates and maintenance to address issues and improve functionality
