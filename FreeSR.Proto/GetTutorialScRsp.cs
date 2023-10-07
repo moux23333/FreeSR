@@ -8,5 +8,5 @@ namespace FreeSR.Proto
 		[ProtoMember(7)] public List<Tutorial> TutorialList;
 		[ProtoMember(15)] public int Retcode;
 	}
-	
+
 }

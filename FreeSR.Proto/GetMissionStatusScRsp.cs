@@ -5,12 +5,14 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetMissionStatusScRsp
 	{
-		[ProtoMember(6)] public List<int> FinishedMainMissionIdList;
-		[ProtoMember(8)] public List<Mission> SubMissionStatusList;
-		[ProtoMember(14)] public List<Mission> MissionEventStatusList;
-		[ProtoMember(4)] public List<int> UnfinishedMainMissionIdList;
-		[ProtoMember(3)] public List<int> DisabledMainMissionIdList;
-		[ProtoMember(1)] public int Retcode;
+	    [ProtoMember(11)] public List<int> UnfinishedMainMissionIdList;
+		[ProtoMember(8)] public int Retcode;
+		[ProtoMember(4)] public List<Mission> MissionEventStatusList;
+		[ProtoMember(9)] public List<int> DisabledMainMissionIdList;
+		[ProtoMember(13)] public List<Mission> SubMissionStatusList;
+		[ProtoMember(10)] public List<int> FinishedMainMissionIdList;
+
+
 	}
 	
 }

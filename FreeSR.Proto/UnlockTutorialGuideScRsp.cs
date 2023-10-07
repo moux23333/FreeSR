@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class UnlockTutorialGuideScRsp
 	{
+		[ProtoMember(11)] public int Retcode;
 		[ProtoMember(8)] public TutorialGuide TutorialGuide;
-		[ProtoMember(10)] public int Retcode;
 	}
-	
+
 }

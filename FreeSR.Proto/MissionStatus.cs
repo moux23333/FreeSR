@@ -1,7 +1,6 @@
 namespace FreeSR.Proto
 {
 	using ProtoBuf;
-
 	public enum MissionStatus
 	{
 		MISSION_NONE = 0,
@@ -9,5 +8,5 @@ namespace FreeSR.Proto
 		MISSION_FINISH = 2,
 		MISSION_PREPARED = 3,
 	}
-	
+
 }

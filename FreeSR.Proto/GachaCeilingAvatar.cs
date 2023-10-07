@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GachaCeilingAvatar
 	{
-		[ProtoMember(12)] public int RepeatedCnt;
-		[ProtoMember(1)] public int AvatarId;
+		[ProtoMember(1)] public int RepeatedCnt;
+		[ProtoMember(14)] public int AvatarId;
 	}
-	
+
 }

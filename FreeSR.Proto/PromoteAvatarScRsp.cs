@@ -7,5 +7,5 @@ namespace FreeSR.Proto
 	{
 		[ProtoMember(8)] public int Retcode;
 	}
-	
+
 }

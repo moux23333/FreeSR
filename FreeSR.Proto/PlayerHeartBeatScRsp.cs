@@ -5,10 +5,10 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class PlayerHeartBeatScRsp
 	{
-		[ProtoMember(7)] public long CurrentTime;
-		[ProtoMember(10)] public ClientDownloadData DownloadData;
-		[ProtoMember(5)] public long ServerTime;
-		[ProtoMember(9)] public int Retcode;
+		[ProtoMember(3)] public ClientDownloadData DownloadData;
+		[ProtoMember(4)] public long ServerTimeMs;
+		[ProtoMember(10)] public long ClientTimeMs;
+		[ProtoMember(15)] public int Retcode;
 	}
-	
+
 }

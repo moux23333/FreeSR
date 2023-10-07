@@ -1,7 +1,6 @@
 namespace FreeSR.Proto
 {
 	using ProtoBuf;
-
 	public enum ExtraLineupType
 	{
 		LINEUP_NONE = 0,
@@ -14,8 +13,8 @@ namespace FreeSR.Proto
 		LINEUP_ROGUE_TRIAL = 7,
 		LINEUP_ACTIVITY = 8,
 		LINEUP_BOXING_CLUB = 9,
-		LINEUP_TRIAL_IN_BATTLE = 10,
 		LINEUP_TREASURE_DUNGEON = 11,
+		LINEUP_CHESS_ROGUE = 12,
 	}
-	
+
 }

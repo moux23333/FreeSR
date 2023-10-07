@@ -5,11 +5,11 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ArchiveData
 	{
-		[ProtoMember(3)] public List<int> HGPPMJHKFAL;
-		[ProtoMember(13)] public List<int> IIKAHBFLJHE;
-		[ProtoMember(9)] public List<int> JGGBMOLLHEI;
-		[ProtoMember(4)] public List<NJACLGJCGBB> KillMonsterList;
-		[ProtoMember(10)] public List<IILBGBKEDMD> RelicList;
+		[ProtoMember(12)] public List<LDGEAJNCJBE> Pnoaomfondp;
+		[ProtoMember(2)] public List<int> Aamgeecghpc;
+		[ProtoMember(5)] public List<int> Peafijnmikc;
+		[ProtoMember(10)] public List<int> Dbhijhcamgc;
+		[ProtoMember(1)] public List<ENJCBALEAJC> RelicList;
 	}
-	
+
 }

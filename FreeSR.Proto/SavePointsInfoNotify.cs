@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SavePointsInfoNotify
 	{
-		[ProtoMember(3)] public int ValidTimes;
-		[ProtoMember(10)] public long RefreshTime;
+		[ProtoMember(2)] public int RefreshTime;
+		[ProtoMember(10)] public int ValidTimes;
 	}
-	
+
 }

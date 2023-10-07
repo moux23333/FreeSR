@@ -15,5 +15,5 @@ namespace FreeSR.Proto
 		[ProtoMember(8)] public int DamageScore;
 		[ProtoMember(9)] public int FinalHitScore;
 	}
-	
+
 }

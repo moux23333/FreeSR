@@ -5,14 +5,14 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class Equipment
 	{
-		[ProtoMember(9)] public int Rank;
-		[ProtoMember(10)] public int Level;
-		[ProtoMember(13)] public bool IsProtected;
-		[ProtoMember(11)] public int UniqueId;
-		[ProtoMember(2)] public int Exp;
-		[ProtoMember(1)] public int BaseAvatarId;
-		[ProtoMember(3)] public int Promotion;
-		[ProtoMember(4)] public int Tid;
+		[ProtoMember(9)] public int Level;
+		[ProtoMember(5)] public int BaseAvatarId;
+		[ProtoMember(4)] public int UniqueId;
+		[ProtoMember(6)] public int Tid;
+		[ProtoMember(2)] public int Promotion;
+		[ProtoMember(7)] public int Exp;
+		[ProtoMember(12)] public bool IsProtected;
+		[ProtoMember(11)] public int Rank;
 	}
-	
+
 }

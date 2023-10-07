@@ -5,12 +5,12 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SwapLineupCsReq
 	{
-		[ProtoMember(9)] public int DstSlot;
-		[ProtoMember(11)] public int PlaneId;
-		[ProtoMember(15)] public int Index;
-		[ProtoMember(12)] public ExtraLineupType ExtraLineupType;
-		[ProtoMember(6)] public int SrcSlot;
-		[ProtoMember(3)] public bool IsVirtual;
+		[ProtoMember(8)] public int PlaneId;
+		[ProtoMember(5)] public ExtraLineupType ExtraLineupType;
+		[ProtoMember(3)] public int SrcSlot;
+		[ProtoMember(11)] public int DstSlot;
+		[ProtoMember(4)] public bool IsVirtual;
+		[ProtoMember(13)] public int Index;
 	}
-	
+
 }

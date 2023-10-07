@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetArchiveDataScRsp
 	{
-		[ProtoMember(13)] public int Retcode;
-		[ProtoMember(12)] public ArchiveData ArchiveData;
+		[ProtoMember(9)] public int Retcode;
+		[ProtoMember(5)] public ArchiveData ArchiveData;
 	}
-	
+
 }

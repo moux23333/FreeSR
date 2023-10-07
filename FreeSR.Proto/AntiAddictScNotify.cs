@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class AntiAddictScNotify
 	{
-		[ProtoMember(4)] public string Msg;
-		[ProtoMember(6)] public int MsgType;
-		[ProtoMember(7)] public string Level;
+		[ProtoMember(9)] public string Msg;
+		[ProtoMember(3)] public int MsgType;
+		[ProtoMember(8)] public string Level;
 	}
-	
+
 }

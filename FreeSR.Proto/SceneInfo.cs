@@ -5,22 +5,24 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneInfo
 	{
-		[ProtoMember(1766)] public List<JCDOMCEKHIF> FECJHCDLANO;
-		[ProtoMember(3)] public MechanismBarInfo MechanismBarInfo;
-		[ProtoMember(1)] public List<EntityBuffInfo> EntityBuffList;
-		[ProtoMember(7)] public int GPJKFDCDOLD;
+		[ProtoMember(2028)] public Dictionary<string, int> Ffhkboligaj;
+		[ProtoMember(1)] public int Bkmbkahohif; 
 		[ProtoMember(6)] public int FloorId;
-		[ProtoMember(2)] public int LDNOPOBIGOB;
-		[ProtoMember(5)] public List<BuffInfo> EnvBuffList;
-		[ProtoMember(11)] public List<IBGANDIBPLL> DJONDAMIICP;
-		[ProtoMember(14)] public List<int> HCAIAOIKGKI;
-		[ProtoMember(4)] public int HHKLBCAGDIN;
-		[ProtoMember(8)] public int CJBDBIDKNOG;
-		[ProtoMember(15)] public List<SceneEntityInfo> EntityList;
-		[ProtoMember(239)] public Dictionary<string, int> JHFALIDCHFO;
-		[ProtoMember(10)] public List<int> LightenSectionList;
-		[ProtoMember(12)] public int EntryId;
-		[ProtoMember(9)] public int PlaneId;
+		[ProtoMember(12)] public List<int> LightenSectionList;
+		[ProtoMember(7)] public int PlaneId;
+		[ProtoMember(11)] public List<SceneEntityInfo> EntityList;
+		[ProtoMember(10)] public MechanismBarInfo Abdcmnblepa;
+		[ProtoMember(1496)] public List<LCKCOFLDGDO> Ilapleopbed;
+		[ProtoMember(8)] public Dictionary<int, LPKDNGEDMDO> Kocfnldmphi;
+		[ProtoMember(14)] public int EntryId;
+		[ProtoMember(2)] public List<int> Oondmdfablj;
+		[ProtoMember(5)] public int Admbbnbnibk;
+		[ProtoMember(13)] public int LeaderEntityId;
+		[ProtoMember(4)] public List<OLEJDNBFIJI> CustomDataList;
+		[ProtoMember(1882)] public List<NFDPJPAEOEC> Ogofbaicehd;
+		[ProtoMember(3)] public List<BuffInfo> EnvBuffList;
+		[ProtoMember(15)] public int GameModeType;
+		[ProtoMember(9)] public List<EntityBuffInfo> EntityBuffList;
 	}
-	
+
 }

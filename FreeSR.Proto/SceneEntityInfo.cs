@@ -6,13 +6,14 @@ namespace FreeSR.Proto
 	public class SceneEntityInfo
 	{
 		[ProtoMember(11)] public SceneActorInfo Actor;
-		[ProtoMember(6)] public SceneNpcMonsterInfo NpcMonster;
-		[ProtoMember(15)] public SceneNpcInfo Npc;
-		[ProtoMember(7)] public ScenePropInfo Prop;
-		[ProtoMember(5)] public MotionInfo Motion;
-		[ProtoMember(9)] public int EntityId;
-		[ProtoMember(4)] public int InstId;
-		[ProtoMember(10)] public int GroupId;
+		[ProtoMember(10)] public SceneNpcMonsterInfo NpcMonster;
+		[ProtoMember(1)] public SceneNpcInfo Npc;
+		[ProtoMember(5)] public ScenePropInfo Prop;
+		[ProtoMember(12)] public SceneSummonUnitInfo SummonUnit;
+		[ProtoMember(4)] public int EntityId;
+		[ProtoMember(3)] public int InstId;
+		[ProtoMember(9)] public int GroupId;
+		[ProtoMember(2)] public MotionInfo Motion;
 	}
-	
+
 }

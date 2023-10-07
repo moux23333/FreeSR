@@ -5,10 +5,10 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class TakeCityShopRewardScRsp
 	{
-		[ProtoMember(13)] public int Retcode;
-		[ProtoMember(10)] public ItemList Reward;
-		[ProtoMember(8)] public int ShopId;
-		[ProtoMember(5)] public int Level;
+		[ProtoMember(4)] public ItemList Reward;
+		[ProtoMember(10)] public int ShopId;
+		[ProtoMember(2)] public int Retcode;
+		[ProtoMember(6)] public int Level;
 	}
-	
+
 }

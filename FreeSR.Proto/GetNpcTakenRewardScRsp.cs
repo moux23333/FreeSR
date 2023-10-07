@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetNpcTakenRewardScRsp
 	{
-		[ProtoMember(8)] public List<int> TalkEventList;
-		[ProtoMember(3)] public int NpcId;
-		[ProtoMember(6)] public int Retcode;
+		[ProtoMember(1)] public int Retcode;
+		[ProtoMember(4)] public List<int> Oabgidhgghi;
+		[ProtoMember(2)] public int NpcId;
 	}
-	
+
 }

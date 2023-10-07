@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SyncLineupNotify
 	{
-		[ProtoMember(10)] public List<SyncLineupReason> ReasonList;
-		[ProtoMember(7)] public LineupInfo Lineup;
+		[ProtoMember(3)] public LineupInfo Lineup;
+		[ProtoMember(6)] public List<KMCINAPPNGP> ReasonList;
 	}
-	
+
 }

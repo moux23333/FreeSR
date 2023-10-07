@@ -5,16 +5,16 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetSceneMapInfoScRsp
 	{
+		[ProtoMember(4)] public List<int> Pejmpfblini;
+		[ProtoMember(7)] public List<MazeMapData> MapList;
 		[ProtoMember(9)] public int CurMapEntryId;
-		[ProtoMember(14)] public List<int> LightenSectionList;
-		[ProtoMember(7)] public int EntryId;
-		[ProtoMember(6)] public List<DAGBPJHNLAF> UnlockTeleportList;
-		[ProtoMember(12)] public bool JIBJCPPHKFI;
-		[ProtoMember(4)] public List<AHLJJJNHNPO> KKFJFLAIBPP;
-		[ProtoMember(13)] public int Retcode;
-		[ProtoMember(5)] public List<int> EMGKEPONFBH;
-		[ProtoMember(3)] public List<PAONPGDKOIH> MazeGroupList;
-		[ProtoMember(11)] public List<JFLHHNAMPOB> MazePropList;
+		[ProtoMember(5)] public List<MazeGroup> MazeGroupList;
+		[ProtoMember(10)] public bool Dbhfekhniih;
+		[ProtoMember(1)] public List<int> Plhhejpgcnp;
+		[ProtoMember(6)] public List<UnlockedTeleportData> UnlockedTeleportList;
+		[ProtoMember(12)] public int EntryId;
+		[ProtoMember(8)] public int Retcode;
+		[ProtoMember(3)] public List<MazeProp> MazePropList;
 	}
-	
+
 }

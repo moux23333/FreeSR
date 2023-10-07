@@ -20,7 +20,7 @@
                 Name = "Squad 1",
                 AvatarList = new List<LineupAvatar>(),
                 LeaderSlot = 5,
-                AMBCECDBHFC = 5
+                Foafdgjflmc = 5
             };
 
             var characters = new int[] { 8001, 1005, 1003 };
@@ -30,7 +30,7 @@
                 response.Lineup.AvatarList.Add(new LineupAvatar
                 {
                     AvatarType = AvatarType.AVATAR_FORMAL_TYPE,
-                    Hp = 10000,
+                    CurHealth = new HealthBarInfo { CurHp = 10000, MaxHp = 10000 },
                     Sp = 10000,
                     Satiety = 100,
                     Id = id,
@@ -56,7 +56,7 @@
                 ExtraLineupType = ExtraLineupType.LINEUP_NONE,
                 Name = "Squad 1",
                 AvatarList = new List<LineupAvatar>(),
-                AMBCECDBHFC = 5,
+                Foafdgjflmc = 5,
                 LeaderSlot = 3
             });
 
@@ -67,7 +67,7 @@
                 response.LineupList[0].AvatarList.Add(new LineupAvatar
                 {
                     AvatarType = AvatarType.AVATAR_FORMAL_TYPE,
-                    Hp = 10000,
+                    CurHealth = new HealthBarInfo { CurHp = 10000, MaxHp = 10000 },
                     Sp = 10000,
                     Satiety = 100,
                     Id = id,

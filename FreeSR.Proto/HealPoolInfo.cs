@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class HealPoolInfo
 	{
-		[ProtoMember(8)] public long RefreshTime;
-		[ProtoMember(6)] public int HealPool;
+		[ProtoMember(10)] public int Bnfnjgbbpne;
+		[ProtoMember(13)] public int Ohneblmodgi;
 	}
-	
+
 }

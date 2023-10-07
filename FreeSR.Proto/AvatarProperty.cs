@@ -13,5 +13,5 @@ namespace FreeSR.Proto
 		[ProtoMember(6)] public double LeftSp;
 		[ProtoMember(7)] public double MaxSp;
 	}
-	
+
 }

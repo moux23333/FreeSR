@@ -5,10 +5,10 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class StartCocoonStageCsReq
 	{
-		[ProtoMember(3)] public int Wave;
-		[ProtoMember(8)] public int CocoonId;
-		[ProtoMember(4)] public int WorldLevel;
-		[ProtoMember(1)] public int PropEntityId;
+		[ProtoMember(13)] public int PropEntityId;
+		[ProtoMember(3)] public int WorldLevel;
+		[ProtoMember(11)] public int CocoonId;
+		[ProtoMember(7)] public int Wave;
 	}
-	
+
 }

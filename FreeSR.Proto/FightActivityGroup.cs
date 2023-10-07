@@ -5,10 +5,10 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class FightActivityGroup
 	{
-		[ProtoMember(6)] public int PassedMaxDifficultyLevel;
-		[ProtoMember(5)] public List<int> TakenDifficultyLevelRewardList;
-		[ProtoMember(8)] public int EndlessMaxWave;
-		[ProtoMember(2)] public int GroupId;
+		[ProtoMember(8)] public List<int> TakenDifficultyLevelRewardList;
+		[ProtoMember(13)] public int GroupId;
+		[ProtoMember(15)] public int PassedMaxDifficultyLevel;
+		[ProtoMember(7)] public int EndlessMaxWave;
 	}
-	
+
 }

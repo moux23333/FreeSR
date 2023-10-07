@@ -1,7 +1,6 @@
 namespace FreeSR.Proto
 {
 	using ProtoBuf;
-
 	public enum HeroBasicType
 	{
 		None = 0,
@@ -20,5 +19,5 @@ namespace FreeSR.Proto
 		BoyPriest = 8013,
 		GirlPriest = 8014,
 	}
-	
+
 }

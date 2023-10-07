@@ -5,9 +5,11 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneMonsterWave
 	{
-		[ProtoMember(9)] public List<EEPAFHEBIKG> MonsterList;
-		[ProtoMember(11)] public HJDGNJOCKCM MonsterParam;
-		[ProtoMember(10)] public List<ItemList> DropList;
+		[ProtoMember(10)] public int Gccdpcdfbbb;
+		[ProtoMember(13)] public OMFIMOKKGNJ Dgmlkpoolpe;
+		[ProtoMember(8)] public int Dihjjhhgkne;
+		[ProtoMember(1)] public List<ItemList> DropList;
+		[ProtoMember(9)] public List<SceneMonster> MonsterList;
 	}
-	
+
 }

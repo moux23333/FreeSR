@@ -10,5 +10,5 @@ namespace FreeSR.Proto
 		[ProtoMember(3)] public int SkillLevel;
 		[ProtoMember(4)] public int SkillUseCount;
 	}
-	
+
 }

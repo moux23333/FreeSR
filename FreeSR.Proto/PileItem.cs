@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class PileItem
 	{
-		[ProtoMember(5)] public int ItemId;
-		[ProtoMember(11)] public int ItemNum;
+		[ProtoMember(3)] public int ItemId;
+		[ProtoMember(15)] public int ItemNum;
 	}
-	
+
 }

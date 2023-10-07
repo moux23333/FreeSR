@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetNpcTakenRewardCsReq
 	{
-		[ProtoMember(11)] public int NpcId;
+		[ProtoMember(5)] public int NpcId;
 	}
-	
+
 }

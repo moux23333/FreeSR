@@ -5,12 +5,12 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneNpcMonsterInfo
 	{
+		[ProtoMember(8)] public bool Aimdkiodiib;
 		[ProtoMember(10)] public int MonsterId;
-		[ProtoMember(14)] public int WorldLevel;
-		[ProtoMember(7)] public bool OHENKPOLAND;
-		[ProtoMember(13)] public bool HCLMNPDNPKL;
-		[ProtoMember(6)] public int EventId;
-		[ProtoMember(11)] public GKKCMAPELHB ExtraInfo;
+		[ProtoMember(2)] public FNCLFLKHFFH Hbaaijkmjkb;
+		[ProtoMember(7)] public bool Nknhamfjpdj;
+		[ProtoMember(1)] public int WorldLevel;
+		[ProtoMember(5)] public int Malnbhckeni;
 	}
-	
+
 }

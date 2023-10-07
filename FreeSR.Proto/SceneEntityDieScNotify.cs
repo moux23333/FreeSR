@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneEntityDieScNotify
 	{
-		[ProtoMember(15)] public List<int> EntityIdList;
+		[ProtoMember(9)] public List<int> EntityIdList;
 	}
-	
+
 }

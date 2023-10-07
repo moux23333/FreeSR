@@ -5,16 +5,16 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class PlayerLoginScRsp
 	{
-		[ProtoMember(9)] public PlayerBasicInfo BasicInfo;
-		[ProtoMember(6)] public bool IsNewPlayer;
-		[ProtoMember(11)] public bool IsRelay;
-		[ProtoMember(8)] public long LoginRandom;
-		[ProtoMember(2)] public int Retcode;
-		[ProtoMember(1)] public int CurServerTimezone;
-		[ProtoMember(12)] public int Stamina;
-		[ProtoMember(10)] public string HCCLEKMAHDO;
-		[ProtoMember(15)] public string LHJECMFKAFD;
-		[ProtoMember(5)] public long ServerTimestampMs;
+		[ProtoMember(15)] public int Retcode;
+		[ProtoMember(12)] public bool IsNewPlayer;
+		[ProtoMember(8)] public string Fcajkkeinid;
+		[ProtoMember(14)] public int CurTimezone;
+		[ProtoMember(11)] public long ServerTimestampMs;
+		[ProtoMember(2)] public PlayerBasicInfo BasicInfo;
+		[ProtoMember(3)] public string Hnpfomcjijm;
+		[ProtoMember(7)] public bool EPIIKAGFCNK;
+		[ProtoMember(6)] public int Stamina;
+		[ProtoMember(4)] public long LoginRandom;
 	}
-	
+
 }

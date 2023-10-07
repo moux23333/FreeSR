@@ -12,9 +12,9 @@
         {
             SceneInfo scene = new SceneInfo
             {
-                GPJKFDCDOLD = 1,
-                LDNOPOBIGOB = 1,
-                CJBDBIDKNOG = 1,
+                GameModeType = 1,
+                Bkmbkahohif = 1,
+                Admbbnbnibk = 1,
                 EntryId = 1000101,
                 PlaneId = 10001,
                 FloorId = 10001001,

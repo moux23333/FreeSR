@@ -9,5 +9,5 @@ namespace FreeSR.Proto
 		[ProtoMember(2)] public int Cnt;
 		[ProtoMember(3)] public int Step;
 	}
-	
+
 }

@@ -5,8 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class PropExtraInfo
 	{
-		[ProtoMember(4)] public PropRogueInfo RogueInfo;
-		[ProtoMember(15)] public PropAeonInfo AeonInfo;
+		[ProtoMember(14)] public IIGMNIMNODB RogueInfo;
+		[ProtoMember(7)] public PropAeonInfo AeonInfo;
+		[ProtoMember(2)] public HGLJFOPGHFA ChessRogueInfo;
 	}
-	
+
 }

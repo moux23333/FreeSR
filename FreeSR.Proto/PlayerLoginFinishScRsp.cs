@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class PlayerLoginFinishScRsp
 	{
-		[ProtoMember(5)] public int Retcode;
+		[ProtoMember(3)] public int Retcode;
 	}
 	
 }

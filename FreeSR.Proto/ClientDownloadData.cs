@@ -6,8 +6,8 @@ namespace FreeSR.Proto
 	public class ClientDownloadData
 	{
 		[ProtoMember(1)] public int Version;
-		[ProtoMember(2)] public long Time;
+		[ProtoMember(2)] public int Time;
 		[ProtoMember(3)] public byte[] Data;
 	}
-	
+
 }

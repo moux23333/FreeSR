@@ -5,16 +5,16 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GachaInfo
 	{
-		[ProtoMember(12)] public int GachaId;
-		[ProtoMember(8)] public FKIJMBHLDEJ NLPMBEHGIBK;
-		[ProtoMember(10)] public string ENJHJHKNGOG;
-		[ProtoMember(13)] public List<int> KKCFLEOACMD;
-		[ProtoMember(9)] public string JDMIIMJFAPK;
-		[ProtoMember(3)] public List<int> FMGHPCBPCDJ;
-		[ProtoMember(14)] public long EndTime;
-		[ProtoMember(2)] public long BeginTime;
-		[ProtoMember(1)] public int EIMEBOGAEIJ;
-		[ProtoMember(5)] public int BJMOFAAAFGM;
+		[ProtoMember(13)] public string Jhhekhfddca;
+		[ProtoMember(4)] public GachaCeiling Bnffmincoee;
+		[ProtoMember(12)] public string Hpaojnkbbjg;
+		[ProtoMember(6)] public List<int> Dmdldgldfdj;
+		[ProtoMember(1)] public long BeginTime;
+		[ProtoMember(15)] public int Mnpcohfblfd;
+		[ProtoMember(10)] public int GachaId;
+		[ProtoMember(11)] public List<int> Pldioknjpjj;
+		[ProtoMember(3)] public long EndTime;
+		[ProtoMember(5)] public int Mndhfonagnl;
 	}
-	
+
 }

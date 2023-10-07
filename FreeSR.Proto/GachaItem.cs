@@ -5,10 +5,10 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GachaItem
 	{
-		[ProtoMember(10)] public bool IsNew;
-		[ProtoMember(13)] public ItemList OGABJADABEB;
-		[ProtoMember(9)] public Item Item;
-		[ProtoMember(2)] public ItemList PODLGKLONKN;
+		[ProtoMember(15)] public ItemList Kiaafkjbpag;
+		[ProtoMember(7)] public Item Item;
+		[ProtoMember(4)] public ItemList Dpjjnjflnjm;
+		[ProtoMember(11)] public bool IsNew;
 	}
-	
+
 }

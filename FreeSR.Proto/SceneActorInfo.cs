@@ -5,10 +5,10 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneActorInfo
 	{
-		[ProtoMember(11)] public int BaseAvatarId;
-		[ProtoMember(14)] public int MapLayer;
-		[ProtoMember(3)] public int Uid;
-		[ProtoMember(12)] public AvatarType AvatarType;
+		[ProtoMember(9)] public int MapLayer;
+		[ProtoMember(5)] public int Uid;
+		[ProtoMember(2)] public AvatarType AvatarType;
+		[ProtoMember(12)] public int BaseAvatarId;
 	}
-	
+
 }

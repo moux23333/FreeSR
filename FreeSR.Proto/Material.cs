@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class Material
 	{
-		[ProtoMember(15)] public int Tid;
-		[ProtoMember(13)] public long CAKDKBFNNKL;
-		[ProtoMember(9)] public int Num;
+		[ProtoMember(4)] public int Tid;
+		[ProtoMember(5)] public int Num;
+		[ProtoMember(9)] public long Jfhkdolijdi;
 	}
-	
+
 }

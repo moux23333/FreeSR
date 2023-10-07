@@ -6,8 +6,8 @@ namespace FreeSR.Proto
 	public class ItemCost
 	{
 		[ProtoMember(7)] public PileItem PileItem;
-		[ProtoMember(1)] public int EquipmentUniqueId;
-		[ProtoMember(11)] public int RelicUniqueId;
+		[ProtoMember(10)] public int EquipmentUniqueId;
+		[ProtoMember(5)] public int RelicUniqueId;
 	}
-	
+
 }

@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class EnterSceneCsReq
 	{
-		[ProtoMember(14)] public int PLLGBEHDPDK;
-		[ProtoMember(6)] public int EntryId;
+		[ProtoMember(9)] public int Einmaclkkhb;
+		[ProtoMember(4)] public int EntryId;
 	}
-	
+
 }

@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetAllLineupDataScRsp
 	{
-		[ProtoMember(9)] public int Retcode;
-		[ProtoMember(14)] public List<LineupInfo> LineupList;
-		[ProtoMember(8)] public int CurIndex;
+		[ProtoMember(6)] public List<LineupInfo> LineupList;
+		[ProtoMember(3)] public int Retcode;
+		[ProtoMember(11)] public int CurIndex;
 	}
-	
+
 }

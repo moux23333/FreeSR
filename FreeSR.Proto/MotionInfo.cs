@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class MotionInfo
 	{
-		[ProtoMember(2)] public Vector Rot;
-		[ProtoMember(12)] public Vector Pos;
+		[ProtoMember(13)] public Vector Pos;
+		[ProtoMember(4)] public Vector Rot;
 	}
-	
+
 }

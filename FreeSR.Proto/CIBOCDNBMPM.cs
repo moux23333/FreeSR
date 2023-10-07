@@ -1,0 +1,11 @@
+namespace FreeSR.Proto
+{
+	using ProtoBuf;
+	public enum CIBOCDNBMPM
+	{
+		ROGUE_COMMON_ITEM_DISPLAY_TYPE_NONE = 0,
+		ROGUE_COMMON_ITEM_DISPLAY_TYPE_ADD = 1,
+		ROGUE_COMMON_ITEM_DISPLAY_TYPE_REMOVE = 2,
+	}
+
+}

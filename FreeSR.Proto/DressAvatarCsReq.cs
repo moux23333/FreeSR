@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class DressAvatarCsReq
 	{
-		[ProtoMember(14)] public int BaseAvatarId;
-		[ProtoMember(3)] public int EquipmentUniqueId;
+		[ProtoMember(2)] public int EquipmentUniqueId;
+		[ProtoMember(12)] public int BaseAvatarId;
 	}
-	
+
 }

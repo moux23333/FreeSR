@@ -5,12 +5,12 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ReplaceLineupCsReq
 	{
-		[ProtoMember(13)] public bool IsVirtual;
-		[ProtoMember(9)] public int EDPAHDAAGIK;
-		[ProtoMember(15)] public int PlaneId;
-		[ProtoMember(10)] public int Index;
+		[ProtoMember(3)] public int Index;
+		[ProtoMember(11)] public bool IsVirtual;
 		[ProtoMember(7)] public ExtraLineupType ExtraLineupType;
-		[ProtoMember(12)] public List<EDFALKDIGGP> ABCLOBIAPPL;
+		[ProtoMember(13)] public List<LineupSlotData> Slots;
+		[ProtoMember(10)] public int PlaneId;
+		[ProtoMember(5)] public int Gfefibheegh;
 	}
-	
+
 }

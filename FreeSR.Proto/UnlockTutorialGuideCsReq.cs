@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class UnlockTutorialGuideCsReq
 	{
-		[ProtoMember(7)] public int GroupId;
+		[ProtoMember(9)] public int GroupId;
 	}
-	
+
 }

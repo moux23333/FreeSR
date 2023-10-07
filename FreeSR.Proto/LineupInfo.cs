@@ -5,15 +5,15 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class LineupInfo
 	{
-		[ProtoMember(15)] public int AMBCECDBHFC;
-		[ProtoMember(5)] public ExtraLineupType ExtraLineupType;
-		[ProtoMember(13)] public string Name;
-		[ProtoMember(1)] public int Index;
-		[ProtoMember(6)] public List<LineupAvatar> AvatarList;
-		[ProtoMember(2)] public bool IsVirtual;
-		[ProtoMember(9)] public int PlaneId;
-		[ProtoMember(4)] public int EDPAHDAAGIK;
-		[ProtoMember(14)] public int LeaderSlot;
+		[ProtoMember(5)] public int Index;
+		[ProtoMember(10)] public int PlaneId;
+		[ProtoMember(9)] public List<LineupAvatar> AvatarList;
+		[ProtoMember(14)] public bool IsVirtual;
+		[ProtoMember(8)] public int Foafdgjflmc;
+		[ProtoMember(3)] public string Name;
+		[ProtoMember(2)] public ExtraLineupType ExtraLineupType;
+		[ProtoMember(12)] public int Gfefibheegh;
+		[ProtoMember(6)] public int LeaderSlot;
 	}
-	
+
 }

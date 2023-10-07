@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetFirstTalkByPerformanceNpcCsReq
 	{
-		[ProtoMember(8)] public List<int> NLKBFFBDFLG;
+		[ProtoMember(5)] public List<int> Bjdalblcbeo;
 	}
-	
+
 }

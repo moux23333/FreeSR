@@ -15,13 +15,13 @@
                 {
                     new Material
                     {
-                        Tid = 10,
-                        Num = 101
+                        Tid = 101,
+                        Num = 10
                     },
                     new Material
                     {
-                        Tid = 10,
-                        Num = 102
+                        Tid = 102,
+                        Num = 10
                     }
                 }
             });

@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class EnterSceneByServerScNotify
 	{
-		[ProtoMember(7)] public SceneInfo Scene;
-		[ProtoMember(10)] public JCBLONKKIIM DHPEPIGFAPF;
-		[ProtoMember(5)] public LineupInfo Lineup;
+		[ProtoMember(5)] public EnterSceneReason Reason;
+		[ProtoMember(14)] public LineupInfo Lineup;
+		[ProtoMember(15)] public SceneInfo Scene;
 	}
-	
+
 }

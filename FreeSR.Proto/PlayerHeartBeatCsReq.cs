@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class PlayerHeartBeatCsReq
 	{
-		[ProtoMember(7)] public long CurrentTime;
-		[ProtoMember(14)] public BHPMJOAPPAP CIOHPCOALKL;
-		[ProtoMember(8)] public int KNPPMBOCELC;
+		[ProtoMember(3)] public long ClientTimeMs;
+		[ProtoMember(6)] public int Dclhjdkbbak;
+		[ProtoMember(10)] public ClientUploadData UploadData;
 	}
-	
+
 }

@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class Tutorial
 	{
+		[ProtoMember(9)] public TutorialStatus Status;
 		[ProtoMember(14)] public int Id;
-		[ProtoMember(3)] public TutorialStatus Status;
 	}
-	
+
 }

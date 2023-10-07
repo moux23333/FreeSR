@@ -5,12 +5,12 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetPlayerBoardDataScRsp
 	{
-		[ProtoMember(11)] public int Retcode;
-		[ProtoMember(8)] public List<KNIJOAHCPJO> UnlockedHeadIconList;
-		[ProtoMember(14)] public MCHEJIHGFCE DisplayAvatarVec;
-		[ProtoMember(15)] public string Signature;
-		[ProtoMember(12)] public int CurrentHeadIconId;
-		[ProtoMember(4)] public int GHEJADAMLJN;
+		[ProtoMember(11)] public int CurrentHeadIconId;
+		[ProtoMember(5)] public IBJIMFINMAL Biogkkgoolb;
+		[ProtoMember(10)] public int Retcode;
+		[ProtoMember(8)] public List<HNDHLMGABMM> Onaghmkjfgh;
+		[ProtoMember(12)] public string Signature;
+		[ProtoMember(9)] public int Ibijadebloh;
 	}
-	
+
 }

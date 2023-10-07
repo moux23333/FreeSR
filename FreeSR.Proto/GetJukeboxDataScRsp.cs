@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetJukeboxDataScRsp
 	{
-		[ProtoMember(11)] public List<LOKDGEKFHOH> LJLGLLELEMI;
-		[ProtoMember(7)] public int FMCELIDLCBJ;
-		[ProtoMember(15)] public int Retcode;
+		[ProtoMember(1)] public List<OBBPGLGMMBM> Mhlgocgfaio;
+		[ProtoMember(9)] public int Ficgdniimmb;
+		[ProtoMember(5)] public int Retcode;
 	}
-	
+
 }

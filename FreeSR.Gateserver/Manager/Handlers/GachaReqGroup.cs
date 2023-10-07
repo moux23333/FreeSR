@@ -17,18 +17,18 @@
             session.Send(CmdType.GetGachaInfoScRsp, new GetGachaInfoScRsp
             {
                 Retcode = Retcode.RETCODE_RET_SUCC,
-                GachaRandom = 21,
+                GachaRandom = 0,
                 GachaInfoList = new List<GachaInfo>
                 {
                     new GachaInfo
                     {
-                        ENJHJHKNGOG = "https://webstatic-sea.hoyoverse.com/hkrpg/event/e20211215gacha-v2/index.html?authkey_ver=1&sign_type=2&auth_appid=webview_gacha&win_mode=fullscreen#/log",
-                        FMGHPCBPCDJ = new List<int>(1005),
+                        //ENJHJHKNGOG = "https://webstatic-sea.hoyoverse.com/hkrpg/event/e20211215gacha-v2/index.html?authkey_ver=1&sign_type=2&auth_appid=webview_gacha&win_mode=fullscreen#/log",
+                        Dmdldgldfdj = new List<int>(1208),
                         //JDMIIMJFAPK = "https://webstatic-sea.hoyoverse.com/hkrpg/event/e20211215gacha-v2/index.html?authkey_ver=1&sign_type=2&auth_appid=webview_gacha&win_mode=fullscreen&gacha_id=ad9815cdf2308104c377aac42c7f0cdd8d&timestamp=1689725163",
-                        KKCFLEOACMD = new List<int>{1111, 1108, 1103},
+                        Pldioknjpjj = new List<int>{1208, 1110, 1109, 1106},
                         BeginTime = 1689719400,
                         EndTime = 4070880000,
-                        GachaId = 2008
+                        GachaId = 2010
                     }
                 }
             });
@@ -43,7 +43,7 @@
                 session.Send(CmdType.DoGachaScRsp, new DoGachaScRsp
                 {
                     GachaId = gachaReq.GachaId,
-                    BBGOINCNNOB = gachaReq.GachaRandom + 1,
+                    Nmaojeiedak = gachaReq.GachaRandom + 1,
                     GachaNum = gachaReq.GachaNum,
                     GachaItemList = new List<GachaItem>
                     {
@@ -57,7 +57,7 @@
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -76,13 +76,12 @@
                 });
             }
 
-            //10 not work
             if (gachaReq.GachaNum == 10)
             {
                 session.Send(CmdType.DoGachaScRsp, new DoGachaScRsp
                 {
                     GachaId = gachaReq.GachaId,
-                    BBGOINCNNOB = gachaReq.GachaRandom + 10,
+                    Nmaojeiedak = gachaReq.GachaRandom + 10,
                     GachaNum = gachaReq.GachaNum,
                     GachaItemList = new List<GachaItem>
                     {
@@ -92,11 +91,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -117,11 +116,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -142,11 +141,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -167,11 +166,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -192,11 +191,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -217,11 +216,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -242,11 +241,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -267,11 +266,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -292,11 +291,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {
@@ -317,11 +316,11 @@
                             {
                                 new Item
                                 {
-                                    ItemId = 1005,
+                                    ItemId = 1208,
                                     Num = 1,
                                 }
                             }[0],
-                            PODLGKLONKN = new List<ItemList>
+                            Dpjjnjflnjm = new List<ItemList>
                             {
                                 new ItemList
                                 {

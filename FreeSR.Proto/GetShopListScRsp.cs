@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetShopListScRsp
 	{
-		[ProtoMember(8)] public List<Shop> ShopList;
-		[ProtoMember(15)] public int ShopType;
-		[ProtoMember(6)] public int Retcode;
+		[ProtoMember(14)] public int ShopType;
+		[ProtoMember(6)] public List<Shop> ShopList;
+		[ProtoMember(10)] public int Retcode;
 	}
-	
+
 }

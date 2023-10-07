@@ -18,14 +18,14 @@
                 Ip = "127.0.0.1",
                 RegionName = "FreeSR",
                 Port = 22301,
-                UseTcp = true,
+                Mljaogdhcki = true,
                 LoginWhiteMsg = "Access verification failed. Please check if you have logged in to the correct account and server.",
-                OEJDLAAMCGP = true,
-                EPBGBEKFBJP = true,
-                MBHMKOLGAHC = true,
-                MbResVersion = "4762225",
-                AssetBundleUrl = "https://autopatchos.starrails.com/asb/V1.2Live/output_4762225_de745b65ed",
-                ExResourceUrl = "https://autopatchos.starrails.com/design_data/V1.2Live/output_4762225_de745b65ed",
+                Jcdlppbocpe = true,
+                Gifijbibiin = true,
+                Ibplbfhmgkf = true,
+                MbResVersion = "5335706",
+                //AssetBundleUrl = "https://autopatchos.starrails.com/asb/V1.2Live/output_4762225_de745b65ed",
+                //ExResourceUrl = "https://autopatchos.starrails.com/design_data/V1.2Live/output_4762225_de745b65ed",
             })));
 
             return true;

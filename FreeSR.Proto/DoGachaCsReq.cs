@@ -5,10 +5,10 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class DoGachaCsReq
 	{
-		[ProtoMember(8)] public int SimulateMagic;
-		[ProtoMember(13)] public int GachaNum;
-		[ProtoMember(12)] public int GachaRandom;
-		[ProtoMember(7)] public int GachaId;
+		[ProtoMember(10)] public int GachaId;
+		[ProtoMember(9)] public int GachaRandom;
+		[ProtoMember(6)] public int GachaNum;
+		[ProtoMember(15)] public int SimulateMagic;
 	}
-	
+
 }

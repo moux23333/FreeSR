@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetSceneMapInfoCsReq
 	{
-		[ProtoMember(7)] public List<int> LACBLOEEOEM;
-		[ProtoMember(13)] public bool JIBJCPPHKFI;
-		[ProtoMember(1)] public int EntryId;
+		[ProtoMember(9)] public int EntryId;
+		[ProtoMember(2)] public bool Dbhfekhniih;
+		[ProtoMember(15)] public List<int> EntryIdList;
 	}
-	
+
 }

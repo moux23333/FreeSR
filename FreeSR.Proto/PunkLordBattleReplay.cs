@@ -6,7 +6,7 @@ namespace FreeSR.Proto
 	public class PunkLordBattleReplay
 	{
 		[ProtoMember(1)] public string BattleReplayKey;
-		[ProtoMember(2)] public OAIDOPBMEFG ReplayInfo;
+		[ProtoMember(2)] public KIBOFBCJCCI ReplayInfo;
 	}
-	
+
 }

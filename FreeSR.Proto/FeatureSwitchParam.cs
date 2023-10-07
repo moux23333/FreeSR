@@ -7,5 +7,5 @@ namespace FreeSR.Proto
 	{
 		[ProtoMember(1)] public List<int> ParamList;
 	}
-	
+
 }

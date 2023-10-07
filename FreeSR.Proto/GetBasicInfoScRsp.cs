@@ -5,14 +5,14 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetBasicInfoScRsp
 	{
-		[ProtoMember(3)] public long LastSetNicknameTime;
-		[ProtoMember(15)] public int WeekCocoonFinishedCount;
-		[ProtoMember(9)] public int ExchangeTimes;
-		[ProtoMember(5)] public int CurDay;
-		[ProtoMember(2)] public int Retcode;
-		[ProtoMember(6)] public long NextRecoverTime;
-		[ProtoMember(10)] public int GameplayBirthday;
-		[ProtoMember(14)] public bool IsProtectedEquipmentRarity4;
+		[ProtoMember(10)] public int Retcode;
+		[ProtoMember(13)] public int WeekCocoonFinishedCount;
+		[ProtoMember(7)] public int CurDay;
+		[ProtoMember(15)] public int NextRecoverTime;
+		[ProtoMember(12)] public PlayerSettingInfo PlayerSettingInfo;
+		[ProtoMember(2)] public int GameplayBirthday;
+		[ProtoMember(14)] public int LastSetNicknameTime;
+		[ProtoMember(3)] public int ExchangeTimes;
 	}
-	
+
 }

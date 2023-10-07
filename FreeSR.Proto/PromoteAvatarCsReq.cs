@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class PromoteAvatarCsReq
 	{
-		[ProtoMember(6)] public List<ItemCost> ItemCost;
+		[ProtoMember(15)] public List<ItemCost> ItemList;
 		[ProtoMember(5)] public int BaseAvatarId;
 	}
-	
+
 }

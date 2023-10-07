@@ -5,11 +5,11 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class StartCocoonStageScRsp
 	{
-		[ProtoMember(9)] public int CocoonId;
-		[ProtoMember(10)] public int Wave;
-		[ProtoMember(13)] public int Retcode;
+		[ProtoMember(2)] public int Wave;
+		[ProtoMember(15)] public int CocoonId;
+		[ProtoMember(1)] public int Retcode;
+		[ProtoMember(11)] public SceneBattleInfo BattleInfo;
 		[ProtoMember(14)] public int PropEntityId;
-		[ProtoMember(8)] public SceneBattleInfo BattleInfo;
 	}
-	
+
 }

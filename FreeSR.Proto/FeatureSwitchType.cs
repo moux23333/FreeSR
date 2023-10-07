@@ -1,7 +1,6 @@
 namespace FreeSR.Proto
 {
 	using ProtoBuf;
-
 	public enum FeatureSwitchType
 	{
 		FEATURE_SWITCH_NONE = 0,
@@ -37,6 +36,7 @@ namespace FreeSR.Proto
 		FEATURE_SWITCH_PAM_MISSION = 30,
 		FEATURE_SWITCH_DAILY_MISSION = 31,
 		FEATURE_SWITCH_DESTROY_ITEM = 32,
+		FEATURE_SWITCH_CONSUME_ITEM_TURN = 33,
 	}
-	
+
 }

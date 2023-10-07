@@ -5,16 +5,17 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ClientMail
 	{
-		[ProtoMember(12)] public bool IsRead;
-		[ProtoMember(9)] public string Title;
-		[ProtoMember(13)] public long Time;
-		[ProtoMember(4)] public string Content;
-		[ProtoMember(8)] public long ExpireTime;
-		[ProtoMember(11)] public ItemList Attachment;
-		[ProtoMember(7)] public string Sender;
-		[ProtoMember(15)] public int TemplateId;
-		[ProtoMember(10)] public List<string> ParaList;
-		[ProtoMember(14)] public int Id;
+		[ProtoMember(3)] public string Title;
+		[ProtoMember(7)] public int TemplateId;
+		[ProtoMember(12)] public OOEJFBNGNKH MailType;
+		[ProtoMember(15)] public ItemList Attachment;
+		[ProtoMember(14)] public List<string> ParaList;
+		[ProtoMember(6)] public bool IsRead;
+		[ProtoMember(13)] public int ExpireTime;
+		[ProtoMember(5)] public int Time;
+		[ProtoMember(10)] public string Content;
+		[ProtoMember(2)] public string Sender;
+		[ProtoMember(11)] public int Id;
 	}
-	
+
 }

@@ -5,6 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetCurSceneInfoCsReq
 	{
+        
 	}
-	
+
 }

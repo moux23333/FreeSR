@@ -27,12 +27,12 @@
             session.Send(CmdType.GetFirstTalkByPerformanceNpcScRsp, new GetFirstTalkByPerformanceNpcScRsp
             {
                 Retcode = Retcode.RETCODE_RET_SUCC,
-                NpcMeetStatusList = new List<PLGKGCOKJOH>
+                NpcMeetStatusList = new List<OCLEPLBNNPA>
                 {
-                    new PLGKGCOKJOH
+                    new OCLEPLBNNPA
                     {
                         IsMeet = true,
-                        KBGCLBANHMF = 1
+                        Jljhobhmaof = 1
                     },
                 }
             });

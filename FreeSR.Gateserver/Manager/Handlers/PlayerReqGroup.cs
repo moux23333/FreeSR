@@ -19,8 +19,8 @@
                 Retcode = Retcode.RETCODE_RET_SUCC,
 
                 DownloadData = new ClientDownloadData(),
-                CurrentTime = heartbeatReq.CurrentTime,
-                ServerTime = DateTimeOffset.Now.ToUnixTimeMilliseconds()
+                ClientTimeMs = heartbeatReq.ClientTimeMs,
+                ServerTimeMs = DateTimeOffset.Now.ToUnixTimeMilliseconds()
             });
         }
 
@@ -101,10 +101,10 @@
 
             session.Send(CmdType.BattlePassInfoNotify, new BattlePassInfoNotify
             {
-                APAKIFHJGIM = FJOOCNKDGEG.BP_TIER_TYPE_PREMIUM_2,
-                HMFDMCECAHO = 4294967294,
-                LLMDFFBAPKC = 2440,
-                OGKOMHAPOGL = 3,
+                Ibkdaabmege = ILGFODEJBBH.BP_TIER_TYPE_PREMIUM_2,
+                Caajdlolcml = 0,
+                Ipneaeepcmk = 4,
+                Okffhjicndl = 0,
                 Exp = 1000,
                 Level = 50
             });

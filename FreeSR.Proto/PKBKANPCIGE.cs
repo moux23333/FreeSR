@@ -1,0 +1,12 @@
+namespace FreeSR.Proto
+{
+	using ProtoBuf;
+	public enum PKBKANPCIGE
+	{
+		CHESS_ROGUE_DICE_IDLE = 0,
+		CHESS_ROGUE_DICE_ROLLED = 1,
+		CHESS_ROGUE_DICE_CONFIRMED = 2,
+		CHESS_ROGUE_DICE_GIVEUP = 3,
+	}
+
+}

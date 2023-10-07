@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class PropAeonInfo
 	{
-		[ProtoMember(4)] public int AddExp;
-		[ProtoMember(10)] public int DialogueGroupId;
-		[ProtoMember(8)] public int AeonId;
+		[ProtoMember(6)] public int DialogueGroupId;
+		[ProtoMember(15)] public int AeonId;
+		[ProtoMember(2)] public int AddExp;
 	}
-	
+
 }

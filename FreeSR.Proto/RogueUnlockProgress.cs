@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class RogueUnlockProgress
 	{
-		[ProtoMember(5)] public int UnlockId;
-		[ProtoMember(9)] public bool Finish;
-		[ProtoMember(8)] public int Progress;
+		[ProtoMember(13)] public int UnlockId;
+		[ProtoMember(6)] public int Progress;
+		[ProtoMember(14)] public bool Finish;
 	}
-	
+
 }

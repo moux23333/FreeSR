@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneCastSkillScRsp
 	{
-		[ProtoMember(14)] public int Retcode;
-		[ProtoMember(8)] public int CGBLGAIDCAB;
-		[ProtoMember(5)] public SceneBattleInfo BattleInfo;
+		[ProtoMember(9)] public int Retcode;
+		[ProtoMember(6)] public int Mpeofcafinh;
+		[ProtoMember(4)] public SceneBattleInfo BattleInfo;
 	}
-	
+
 }

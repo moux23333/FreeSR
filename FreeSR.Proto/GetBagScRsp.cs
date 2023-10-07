@@ -5,15 +5,16 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetBagScRsp
 	{
-		[ProtoMember(10)] public List<int> MIBKDFMMOBC;
-		[ProtoMember(1)] public List<Material> MaterialList;
-		[ProtoMember(2)] public List<WaitDelResource> WaitDelResourceList;
-		[ProtoMember(14)] public int Retcode;
+		[ProtoMember(3)] public int Retcode;
+		[ProtoMember(6)] public List<JAKOAONFNGN> Lkgomebojaf;
 		[ProtoMember(7)] public List<Relic> RelicList;
-		[ProtoMember(6)] public List<Equipment> EquipmentList;
-		[ProtoMember(5)] public List<KEKDHAJGLOO> LBLLFKHJGEE;
-		[ProtoMember(11)] public List<KEKDHAJGLOO> ALAEMNLAPHJ;
-		[ProtoMember(15)] public List<Material> RogueItemList;
+		[ProtoMember(13)] public List<Material> Eangcgpdmbm;
+		[ProtoMember(8)] public List<int> Fccfaphdpib;
+		[ProtoMember(1)] public List<Material> MaterialList;
+		[ProtoMember(9)] public List<WaitDelResource> WaitDelResourceList;
+		[ProtoMember(14)] public int Agdpohepddk;
+		[ProtoMember(11)] public List<JAKOAONFNGN> Kpbmgjkokda;
+		[ProtoMember(2)] public List<Equipment> EquipmentList;
 	}
-	
+
 }

@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ClientTurnSnapshot
 	{
-		[ProtoMember(1)] public int CDHBKMOCEAD;
-		[ProtoMember(2)] public BattleEventProperty Status;
-		[ProtoMember(3)] public List<LKLPOEPPEHP> OCCBKAINDCD;
+		[ProtoMember(1)] public int Dajijcihlbe;
+		[ProtoMember(2)] public NOFGECHNBBK Status;
+		[ProtoMember(3)] public List<AJPPPGNDGKD> Knhhidggjgf;
 	}
-	
+
 }

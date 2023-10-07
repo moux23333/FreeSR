@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class LoginActivityData
 	{
-		[ProtoMember(8)] public int Id;
-		[ProtoMember(15)] public List<int> HasTakenLoginActivityRewardDaysList;
-		[ProtoMember(7)] public int LoginDays;
+		[ProtoMember(1)] public int LoginDays;
+		[ProtoMember(9)] public List<int> HasTakenLoginActivityRewardDaysList;
+		[ProtoMember(7)] public int Id;
 	}
-	
+
 }

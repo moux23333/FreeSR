@@ -9,5 +9,5 @@ namespace FreeSR.Proto
 		[ProtoMember(2)] public List<FeatureSwitchParam> SwitchList;
 		[ProtoMember(3)] public bool IsAllClosed;
 	}
-	
+
 }

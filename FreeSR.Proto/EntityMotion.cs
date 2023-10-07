@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class EntityMotion
 	{
-		[ProtoMember(5)] public int MapLayer;
-		[ProtoMember(14)] public MotionInfo Motion;
-		[ProtoMember(6)] public int EntityId;
+		[ProtoMember(2)] public int Mkffcdjjajn;
+		[ProtoMember(9)] public MotionInfo Motion;
+		[ProtoMember(6)] public int MapLayer;
 	}
-	
+
 }

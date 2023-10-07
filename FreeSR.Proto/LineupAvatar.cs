@@ -5,12 +5,12 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class LineupAvatar
 	{
+		[ProtoMember(2)] public HealthBarInfo CurHealth;
 		[ProtoMember(10)] public int Id;
-		[ProtoMember(3)] public AvatarType AvatarType;
-		[ProtoMember(8)] public int Sp;
-		[ProtoMember(5)] public int Satiety;
-		[ProtoMember(13)] public int Slot;
-		[ProtoMember(11)] public int Hp;
+		[ProtoMember(7)] public int Slot;
+		[ProtoMember(8)] public AvatarType AvatarType;
+		[ProtoMember(9)] public int Sp;
+		[ProtoMember(13)] public int Satiety;
 	}
-	
+
 }

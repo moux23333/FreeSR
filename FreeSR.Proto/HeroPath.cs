@@ -9,5 +9,5 @@ namespace FreeSR.Proto
 		[ProtoMember(2)] public int Level;
 		[ProtoMember(3)] public int Exp;
 	}
-	
+
 }

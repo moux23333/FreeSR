@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class FinishTutorialScRsp
 	{
-		[ProtoMember(11)] public Tutorial Tutorial;
-		[ProtoMember(2)] public int Retcode;
+		[ProtoMember(12)] public Tutorial Tutorial;
+		[ProtoMember(6)] public int Retcode;
 	}
-	
+
 }

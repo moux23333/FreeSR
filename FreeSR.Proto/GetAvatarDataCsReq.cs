@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetAvatarDataCsReq
 	{
-		[ProtoMember(9)] public List<int> BaseAvatarIdList;
-		[ProtoMember(1)] public bool IsGetAll;
+		[ProtoMember(15)] public List<int> BaseAvatarIdList;
+		[ProtoMember(11)] public bool IsGetAll;
 	}
-	
+
 }

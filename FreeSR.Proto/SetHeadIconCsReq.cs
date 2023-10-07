@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SetHeadIconCsReq
 	{
-		[ProtoMember(2)] public int Id;
+		[ProtoMember(7)] public int Id;
 	}
-	
+
 }

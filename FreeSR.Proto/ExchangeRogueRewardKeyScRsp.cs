@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ExchangeRogueRewardKeyScRsp
 	{
-		[ProtoMember(3)] public int Retcode;
-		[ProtoMember(13)] public int Count;
+		[ProtoMember(10)] public int Retcode;
+		[ProtoMember(4)] public int Count;
 	}
-	
+
 }

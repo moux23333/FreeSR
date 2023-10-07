@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetLoginActivityScRsp
 	{
-		[ProtoMember(2)] public List<LoginActivityData> LoginActivityList;
-		[ProtoMember(12)] public int Retcode;
+		[ProtoMember(4)] public List<LoginActivityData> LoginActivityList;
+		[ProtoMember(14)] public int Retcode;
 	}
-	
+
 }

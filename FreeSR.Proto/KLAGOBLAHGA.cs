@@ -1,0 +1,12 @@
+namespace FreeSR.Proto
+{
+	using ProtoBuf;
+	public enum KLAGOBLAHGA
+	{
+		MAP_INFO_CHEST_TYPE_NONE = 0,
+		MAP_INFO_CHEST_TYPE_NORMAL = 101,
+		MAP_INFO_CHEST_TYPE_CHALLENGE = 102,
+		MAP_INFO_CHEST_TYPE_PUZZLE = 104,
+	}
+
+}

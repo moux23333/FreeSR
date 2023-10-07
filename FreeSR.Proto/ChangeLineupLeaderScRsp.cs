@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ChangeLineupLeaderScRsp
 	{
-		[ProtoMember(12)] public int Slot;
-		[ProtoMember(15)] public int Retcode;
+		[ProtoMember(7)] public List<int> Slot;
+        [ProtoMember(10)] public int Retcode;
 	}
-	
+
 }

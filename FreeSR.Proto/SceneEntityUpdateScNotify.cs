@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneEntityUpdateScNotify
 	{
-		[ProtoMember(6)] public List<SceneEntityInfo> EntityList;
+		[ProtoMember(11)] public List<SceneEntityInfo> EntityList;
 	}
-	
+
 }

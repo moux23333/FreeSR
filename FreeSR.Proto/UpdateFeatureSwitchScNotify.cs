@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class UpdateFeatureSwitchScNotify
 	{
-		[ProtoMember(9)] public List<FeatureSwitchInfo> SwitchInfoList;
+		[ProtoMember(10)] public List<FeatureSwitchInfo> SwitchInfoList;
 	}
-	
+
 }

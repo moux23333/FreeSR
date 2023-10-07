@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class OptionalReward
 	{
-		[ProtoMember(8)] public int Level;
-		[ProtoMember(10)] public int OptionalRewardId;
+		[ProtoMember(6)] public int Level;
+		[ProtoMember(13)] public int OptionalRewardId;
 	}
-	
+
 }

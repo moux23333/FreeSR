@@ -5,11 +5,11 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class TreasureDungeonRecordData
 	{
-		[ProtoMember(1)] public int Param2;
-		[ProtoMember(8)] public int TargetGridId;
-		[ProtoMember(6)] public MMDLIPGBPFN Type;
-		[ProtoMember(3)] public int Param1;
-		[ProtoMember(5)] public int SourceGridId;
+		[ProtoMember(11)] public int TargetGridId;
+		[ProtoMember(9)] public int Param1;
+		[ProtoMember(6)] public int Param2;
+		[ProtoMember(1)] public int SourceGridId;
+		[ProtoMember(2)] public KJNHIAKELBF Type;
 	}
-	
+
 }

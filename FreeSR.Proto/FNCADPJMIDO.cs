@@ -1,0 +1,11 @@
+namespace FreeSR.Proto
+{
+	using ProtoBuf;
+	public enum FNCADPJMIDO
+	{
+		ROGUE_COMMON_BUFF_DISPLAY_TYPE_NONE = 0,
+		ROGUE_COMMON_BUFF_DISPLAY_TYPE_ADD = 1,
+		ROGUE_COMMON_BUFF_DISPLAY_TYPE_REMOVE = 2,
+	}
+
+}

@@ -8,5 +8,5 @@ namespace FreeSR.Proto
 		[ProtoMember(1)] public string Source;
 		[ProtoMember(2)] public int SpAdd;
 	}
-	
+
 }

@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class EntityBuffInfo
 	{
-		[ProtoMember(8)] public int EntityId;
-		[ProtoMember(14)] public List<BuffInfo> BuffList;
+		[ProtoMember(6)] public List<IMEGNPMOHOL> BuffList;
+		[ProtoMember(7)] public int Mkffcdjjajn;
 	}
-	
+
 }

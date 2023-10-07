@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ChangeLineupLeaderCsReq
 	{
-		[ProtoMember(7)] public int Slot;
+		[ProtoMember(9)] public List<int> Slot;
 	}
-	
+
 }

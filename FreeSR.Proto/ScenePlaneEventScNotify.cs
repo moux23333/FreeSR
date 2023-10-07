@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ScenePlaneEventScNotify
 	{
-		[ProtoMember(1)] public ItemList GENMDDPLPLN;
-		[ProtoMember(10)] public ItemList GCPOAHDKNAH;
+		[ProtoMember(10)] public ItemList Pfpnmfjblnh;
+		[ProtoMember(4)] public ItemList Begjmmncnai;
 	}
-	
+
 }

@@ -8,5 +8,5 @@ namespace FreeSR.Proto
 		[ProtoMember(1)] public string AttackType;
 		[ProtoMember(2)] public double Damage;
 	}
-	
+
 }

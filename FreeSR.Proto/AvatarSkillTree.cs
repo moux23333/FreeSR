@@ -8,5 +8,5 @@ namespace FreeSR.Proto
 		[ProtoMember(1)] public int PointId;
 		[ProtoMember(2)] public int Level;
 	}
-	
+
 }

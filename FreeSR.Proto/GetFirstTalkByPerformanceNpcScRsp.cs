@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetFirstTalkByPerformanceNpcScRsp
 	{
-		[ProtoMember(5)] public int Retcode;
-		[ProtoMember(7)] public List<PLGKGCOKJOH> NpcMeetStatusList;
+		[ProtoMember(2)] public int Retcode;
+		[ProtoMember(13)] public List<OCLEPLBNNPA> NpcMeetStatusList;
 	}
-	
+
 }

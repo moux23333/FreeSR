@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneNpcInfo
 	{
-		[ProtoMember(14)] public NpcExtraInfo ExtraInfo;
-		[ProtoMember(9)] public int NpcId;
+		[ProtoMember(15)] public int Gandnhlajmc;
+		[ProtoMember(11)] public NLDLIAFJCGF Hbaaijkmjkb;
 	}
-	
+
 }

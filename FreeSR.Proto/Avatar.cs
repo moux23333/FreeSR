@@ -5,16 +5,16 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class Avatar
 	{
-		[ProtoMember(1)] public long FirstMetTimeStamp;
-		[ProtoMember(5)] public List<int> ABGANGFFNDF;
-		[ProtoMember(4)] public List<EquipRelic> EquipRelicList;
-		[ProtoMember(7)] public int Promotion;
+		[ProtoMember(13)] public List<int> Fbelhlidemb;
+		[ProtoMember(9)] public long FirstMetTimestamp;
+		[ProtoMember(7)] public int Rank;
+		[ProtoMember(14)] public List<EquipRelic> EquipRelicList;
+		[ProtoMember(8)] public int Promotion;
 		[ProtoMember(11)] public int BaseAvatarId;
-		[ProtoMember(9)] public int Rank;
-		[ProtoMember(15)] public int Exp;
-		[ProtoMember(6)] public List<AvatarSkillTree> SkilltreeList;
+		[ProtoMember(6)] public int Level;
+		[ProtoMember(3)] public List<AvatarSkillTree> SkilltreeList;
 		[ProtoMember(12)] public int EquipmentUniqueId;
-		[ProtoMember(10)] public int Level;
+		[ProtoMember(2)] public int Exp;
 	}
-	
+
 }

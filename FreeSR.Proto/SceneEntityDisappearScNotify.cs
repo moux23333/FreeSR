@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneEntityDisappearScNotify
 	{
-		[ProtoMember(14)] public List<int> EntityIdList;
+		[ProtoMember(12)] public List<int> EntityIdList;
 	}
-	
+
 }

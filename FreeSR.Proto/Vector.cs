@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class Vector
 	{
-		[ProtoMember(9, DataFormat = DataFormat.ZigZag)] public int X;
-		[ProtoMember(10, DataFormat = DataFormat.ZigZag)] public int Y;
-		[ProtoMember(1, DataFormat = DataFormat.ZigZag)] public int Z;
+		[ProtoMember(10)] public int y;
+		[ProtoMember(9)] public int x;
+		[ProtoMember(6)] public int z;
 	}
-	
+
 }

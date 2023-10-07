@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetAvatarDataScRsp
 	{
-		[ProtoMember(12)] public bool IsAll;
-		[ProtoMember(3)] public List<Avatar> AvatarList;
-		[ProtoMember(14)] public int Retcode;
+		[ProtoMember(4)] public bool IsAll;
+		[ProtoMember(8)] public List<Avatar> AvatarList;
+		[ProtoMember(12)] public int Retcode;
 	}
-	
+
 }

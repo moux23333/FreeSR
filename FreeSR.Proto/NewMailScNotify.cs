@@ -5,7 +5,7 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class NewMailScNotify
 	{
-		[ProtoMember(5)] public List<int> MailIdList;
+		[ProtoMember(12)] public List<int> MailIdList;
 	}
-	
+
 }

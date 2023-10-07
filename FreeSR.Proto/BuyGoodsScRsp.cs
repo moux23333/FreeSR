@@ -5,11 +5,11 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class BuyGoodsScRsp
 	{
-		[ProtoMember(1)] public int GoodsId;
+		[ProtoMember(4)] public int ShopId;
 		[ProtoMember(14)] public int GoodsBuyTimes;
-		[ProtoMember(9)] public ItemList ReturnItemList;
-		[ProtoMember(7)] public int Retcode;
-		[ProtoMember(11)] public int ShopId;
+		[ProtoMember(7)] public ItemList ReturnItemList;
+		[ProtoMember(8)] public int Retcode;
+		[ProtoMember(10)] public int GoodsId;
 	}
-	
+
 }

@@ -5,12 +5,12 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ScenePropInfo
 	{
-		[ProtoMember(8)] public int PropState;
-		[ProtoMember(7)] public long CreateTimeMs;
-		[ProtoMember(4)] public int LifeTimeMs;
-		[ProtoMember(6)] public List<string> OPCOCDJOEGL;
-		[ProtoMember(3)] public PropExtraInfo ExtraInfo;
-		[ProtoMember(11)] public int PropId;
+		[ProtoMember(13)] public long Jfgenoikill;
+		[ProtoMember(15)] public int Jfnmfialcgd;
+		[ProtoMember(14)] public List<string> Fbmjhhcfafk;
+		[ProtoMember(10)] public int Ofnfehlgafh;
+		[ProtoMember(2)] public PropExtraInfo Hbaaijkmjkb;
+		[ProtoMember(5)] public int Eelilnfjfeh;
 	}
-	
+
 }

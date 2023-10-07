@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class MechanismBarInfo
 	{
-		[ProtoMember(1)] public int EOGFFJCGBCG;
-		[ProtoMember(9)] public int LGKGOMNMBAH;
+		[ProtoMember(2)] public int Value;
+		[ProtoMember(11)] public int Noghhpkakag;
 	}
-	
+
 }

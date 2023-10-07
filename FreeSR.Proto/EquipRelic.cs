@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class EquipRelic
 	{
-		[ProtoMember(12)] public int RelicUniqueId;
-		[ProtoMember(10)] public int Type;
+		[ProtoMember(4)] public int Gdpgidgcgke;
+		[ProtoMember(14)] public int Gmikllcngdb;
 	}
-	
+
 }

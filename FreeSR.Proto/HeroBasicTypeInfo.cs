@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class HeroBasicTypeInfo
 	{
-		[ProtoMember(7)] public int Rank;
-		[ProtoMember(4)] public HeroBasicType BasicType;
-		[ProtoMember(13)] public List<AvatarSkillTree> SkillTreeList;
+		[ProtoMember(10)] public HeroBasicType BasicType;
+		[ProtoMember(15)] public List<AvatarSkillTree> SkillTreeList;
+		[ProtoMember(14)] public int Rank;
 	}
-	
+
 }

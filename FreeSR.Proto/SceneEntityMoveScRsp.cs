@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneEntityMoveScRsp
 	{
-		[ProtoMember(2)] public List<EntityMotion> EntityMotionList;
-		[ProtoMember(7)] public ClientDownloadData DownloadData;
-		[ProtoMember(10)] public int Retcode;
+		[ProtoMember(13)] public int Retcode;
+		[ProtoMember(15)] public ClientDownloadData DownloadData;
+		[ProtoMember(4)] public List<EntityMotion> EntityMotionList;
 	}
-	
+
 }

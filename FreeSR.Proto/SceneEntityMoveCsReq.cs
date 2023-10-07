@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class SceneEntityMoveCsReq
 	{
-		[ProtoMember(14)] public int EntryId;
-		[ProtoMember(4)] public long GOHDKCGEHGP;
-		[ProtoMember(2)] public List<EntityMotion> EntityMotionList;
+		[ProtoMember(5)] public List<EntityMotion> EntityMotionList;
+		[ProtoMember(9)] public int EntryId;
+		[ProtoMember(10)] public long Ecmcbpijpmf;
 	}
-	
+
 }

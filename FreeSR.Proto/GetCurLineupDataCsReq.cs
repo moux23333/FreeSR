@@ -6,5 +6,5 @@ namespace FreeSR.Proto
 	public class GetCurLineupDataCsReq
 	{
 	}
-	
+
 }

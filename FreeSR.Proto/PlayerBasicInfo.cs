@@ -14,5 +14,5 @@ namespace FreeSR.Proto
 		[ProtoMember(7)] public int SCoin;
 		[ProtoMember(8)] public int WorldLevel;
 	}
-	
+
 }

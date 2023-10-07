@@ -5,9 +5,9 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetSpringRecoverDataScRsp
 	{
-		[ProtoMember(13)] public int Retcode;
-		[ProtoMember(3)] public HealPoolInfo HealPoolInfo;
-		[ProtoMember(9)] public SpringRecoverConfig SpringRecoverConfig;
+		[ProtoMember(12)] public SpringRecoverConfig Mgjgdgnaogm;
+		[ProtoMember(8)] public int Retcode;
+		[ProtoMember(5)] public HealPoolInfo Ngdnnfiinnd;
 	}
-	
+
 }

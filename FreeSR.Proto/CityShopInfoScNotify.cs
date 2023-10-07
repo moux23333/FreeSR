@@ -5,10 +5,10 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class CityShopInfoScNotify
 	{
-		[ProtoMember(11)] public long TakenLevelReward;
+		[ProtoMember(4)] public int Level;
+		[ProtoMember(12)] public long TakenLevelReward;
+		[ProtoMember(5)] public int ShopId;
 		[ProtoMember(9)] public int Exp;
-		[ProtoMember(5)] public int Level;
-		[ProtoMember(4)] public int ShopId;
 	}
-	
+
 }

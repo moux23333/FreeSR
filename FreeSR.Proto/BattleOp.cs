@@ -12,7 +12,7 @@ namespace FreeSR.Proto
 		[ProtoMember(5)] public int OpType;
 		[ProtoMember(6)] public int SkillIndex;
 		[ProtoMember(7)] public int OperationCounter;
-		[ProtoMember(8)] public string APJHABDLGNI;
+		[ProtoMember(8)] public string Fhpbgoggobh;
 	}
-	
+
 }

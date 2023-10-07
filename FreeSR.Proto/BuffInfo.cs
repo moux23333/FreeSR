@@ -5,13 +5,13 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class BuffInfo
 	{
-		[ProtoMember(5)] public int Level;
-		[ProtoMember(2)] public int BaseAvatarId;
-		[ProtoMember(8)] public Dictionary<string,float> DynamicValues;
-		[ProtoMember(7)] public int Count;
-		[ProtoMember(3)] public float LifeTime;
-		[ProtoMember(9)] public int BuffId;
+		[ProtoMember(6)] public float LifeTime;
+		[ProtoMember(2)] public int Level;
+		[ProtoMember(3)] public Dictionary<string,float> DynamicValues;
 		[ProtoMember(1)] public long AddTimeMs;
+		[ProtoMember(14)] public int BaseAvatarId;
+		[ProtoMember(12)] public int Count;
+		[ProtoMember(4)] public int BuffId;
 	}
 	
 }

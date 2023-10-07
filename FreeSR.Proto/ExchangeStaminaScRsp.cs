@@ -5,11 +5,11 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class ExchangeStaminaScRsp
 	{
-		[ProtoMember(13)] public List<ItemCost> ItemCostList;
-		[ProtoMember(2)] public int StaminaAdd;
-		[ProtoMember(3)] public int ExchangeTimes;
-		[ProtoMember(11)] public int Retcode;
-		[ProtoMember(10)] public long LastRecoverTime;
+		[ProtoMember(14)] public int LastRecoverTime;
+		[ProtoMember(8)] public List<ItemCost> ItemCostList;
+		[ProtoMember(4)] public int Retcode;
+		[ProtoMember(2)] public int ExchangeTimes;
+		[ProtoMember(9)] public int StaminaAdd;
 	}
-	
+
 }

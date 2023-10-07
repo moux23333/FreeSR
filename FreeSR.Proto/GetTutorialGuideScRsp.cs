@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetTutorialGuideScRsp
 	{
-		[ProtoMember(9)] public int Retcode;
-		[ProtoMember(6)] public List<TutorialGuide> TutorialGuideList;
+		[ProtoMember(8)] public List<TutorialGuide> TutorialGuideList;
+		[ProtoMember(4)] public int Retcode;
 	}
-	
+
 }

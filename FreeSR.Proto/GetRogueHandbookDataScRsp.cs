@@ -5,8 +5,8 @@ namespace FreeSR.Proto
 	[ProtoContract]
 	public class GetRogueHandbookDataScRsp
 	{
-		[ProtoMember(9)] public int Retcode;
-		[ProtoMember(5)] public NMGHEEPMBAD HandbookInfo;
+		[ProtoMember(2)] public GLJKEAEGKJG HandbookInfo;
+		[ProtoMember(5)] public int Retcode;
 	}
-	
+
 }
