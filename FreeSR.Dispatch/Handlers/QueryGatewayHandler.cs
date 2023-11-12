@@ -24,8 +24,8 @@
                 Gifijbibiin = true,
                 Ibplbfhmgkf = true,
                 MbResVersion = "5335706",
-                //AssetBundleUrl = "https://autopatchos.starrails.com/asb/V1.2Live/output_4762225_de745b65ed",
-                //ExResourceUrl = "https://autopatchos.starrails.com/design_data/V1.2Live/output_4762225_de745b65ed",
+                AssetBundleUrl = "https://autopatchos.starrails.com/asb/V1.3Live/output_5355192_0007722cfc",
+                ExResourceUrl = "https://autopatchos.starrails.com/design_data/V1.3Live/output_5371504_9fdb2fe63e",
             })));
 
             return true;
